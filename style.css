@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "bando-regular";
+    src: url(bando-Regular.otf);
+}
+
+@font-face {
+    font-family: "larken";
+    src: url(LarkenDEMO-Bold.otf);
+}
+
+body {
+    font-family: "bando-regular";
+}
+
+h1{
+    position: absolute;
+    font-family: "larken";
+    font-size: 20vw;
+    margin-top: -17vw;
+    text-align: center;
+    padding: 0vw;
+    margin-left: -4vw;
+
+}
+
+.cold {
+    border: 2px solid;
+    border-radius: 2vw;
+    font-size: 3vw;
+    line-height: 5vw;
+    padding: 3vw;
+    margin: 4vw;
+    color: blue;
+    margin-top: 30vw;
+    width: 70vw;
+    margin-left: 12vw;
+}
+
+.cold a{
+    color: blue;
+}
+
+.warm {
+    background-color: rgb(255, 179, 0);
+    color: black;
+}
+
+.warm a{
+    color: black;
+}
+
+.hot {
+    background-color: rgb(254, 54, 54);
+    color: white;
+}
+
+.hot a {
+    color: white;
+}
+
+body.windy {
+    text-decoration-style: wavy;
+}
+
+.super{
+    text-decoration-style: solid;
+}
+
+.extra{
+  text-decoration-style: dotted;
+}
